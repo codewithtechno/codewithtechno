@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Login Container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login Card */
+.login-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+}
+
+.logo {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+/* Input Group */
+.input-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/* Password Container */
+.password-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.show-password-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #f05a28;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.show-password-btn:hover {
+    text-decoration: underline;
+}
+
+/* Login Button */
+.login-btn {
+    background-color: #f05a28;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.login-btn:hover {
+    background-color: #d94a1f;
+}
+
+/* Alternative Login Options */
+.alternative-login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.social-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+}
+
+.google-btn {
+    background-color: #4285f4;
+}
+
+.apple-btn {
+    background-color: #000;
+}
+
+.social-btn i {
+    font-size: 18px;
+}
+
+.social-btn:hover {
+    opacity: 0.9;
+}
+
+p {
+    font-size: 14px;
+}
+
+a {
+    color: #f05a28;
+    text-decoration: none;
+}
