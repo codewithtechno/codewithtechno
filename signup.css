@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e7f9ee;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form Container */
+.form-container {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 360px;
+}
+
+/* Logo Section */
+.form-logo img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+.signup-form label {
+    font-size: 13px;
+    font-weight: 600;
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0 15px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Name Fields (First name and Last name side by side) */
+.name-field {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-field input {
+    width: 48%;
+}
+
+/* Password Fields */
+.password-field {
+    position: relative;
+}
+
+/* Eye Icon for Password Visibility */
+.password-field .eye-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.password-field .eye-icon i {
+    font-size: 18px;
+}
+
+/* Checkbox Container */
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.checkbox-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.checkbox-container a:hover {
+    text-decoration: underline;
+}
+
+/* Submit Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Login Option */
+.login-option {
+    margin-top: 10px;
+    color: rgb(150, 150, 150);
+    font-size: 14px;
+}
+
+.login-option a {
+    color: red;
+    font-weight: bold;
+}
+
+.login-option a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="form-container">
+        <div class="form-logo">
+            <img src="4.png" alt="Company Logo">
+        </div>
+        <form class="signup-form">
+            <label for="name">Name</label>
+            <div class="name-field">
+                <input type="text" placeholder="First name" name="first_name" required>
+                <input type="text" placeholder="Last name" name="last_name" required>
+            </div>
+            <label for="email">Email address</label>
+            <input type="email" placeholder="name@company.com" name="email" required>
+
+            <label for="password">Strong password</label>
+            <div class="password-field">
+                <input type="password" placeholder="Strong password" name="password" required>
+                <span class="eye-icon"><i class="fas fa-eye"></i></span>
+            </div>
+
+            <label for="confirm_password">Confirm password</label>
+            <div class="password-field">
+                <input type="password" placeholder="Confirm password" name="confirm_password" required>
+                <span class="eye-icon"><i class="fas fa-eye"></i></span>
+            </div>
+
+            <div class="checkbox-container">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to CodeWithTechno's 
+                    <a href="#" target="_blank">Terms of use</a> and 
+                    <a href="#" target="_blank">Privacy Policy</a>
+                </label>
+            </div>
+
+            <button type="submit">Sign Up</button>
+        </form>
+
+        <div class="login-option">
+            <p>Already have an account? <a href="login.html">Log in</a></p>
+        </div>
+    </div>
+</body>
+</html>
